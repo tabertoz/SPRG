@@ -50,8 +50,8 @@
                 "height": 80
               },
               "position": {
-                "x": 595,
-                "y": 54
+                "x": 765,
+                "y": 62
               },
               "angle": 0,
               "id": "1e6603e1-9c7e-43df-aca8-a331540d4a7d",
@@ -76,8 +76,8 @@
                 "height": 80
               },
               "position": {
-                "x": 745,
-                "y": 271
+                "x": 825,
+                "y": 281
               },
               "angle": 0,
               "id": "9a00fab5-9dc8-4fc4-845f-deea51951684",
@@ -102,8 +102,8 @@
                 "height": 80
               },
               "position": {
-                "x": 551,
-                "y": 271
+                "x": 608,
+                "y": 284
               },
               "angle": 0,
               "id": "4335dfc4-a747-42c9-830e-6ac4b60c723f",
@@ -120,12 +120,415 @@
                   "class": "element-text hasNoOpenThreats isInScope"
                 }
               }
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 352,
+                "y": 113
+              },
+              "angle": 0,
+              "id": "dfe854b4-2450-4508-890e-16c532ecce54",
+              "z": 5,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Rechnung NFC"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "27482b4b-f0d1-49f3-bcd8-eae4cc390424"
+              },
+              "target": {
+                "id": "dfe854b4-2450-4508-890e-16c532ecce54"
+              },
+              "vertices": [
+                {
+                  "x": 257,
+                  "y": 88
+                },
+                {
+                  "x": 320,
+                  "y": 112
+                }
+              ],
+              "id": "36ecf358-f3e7-4e38-ba83-de634cad1274",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Rechnung erstellen",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 6,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 545,
+                "y": 78
+              },
+              "angle": 0,
+              "id": "464b1ee6-cfda-4ce1-93ba-dc6b6912c196",
+              "z": 7,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Bezahl App"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "1e6603e1-9c7e-43df-aca8-a331540d4a7d"
+              },
+              "target": {
+                "id": "464b1ee6-cfda-4ce1-93ba-dc6b6912c196"
+              },
+              "vertices": [],
+              "id": "2e8b3e5a-5b6f-4d74-a044-30f30b9b5bfa",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Auswahl\nBezahlmethode",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 8,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "464b1ee6-cfda-4ce1-93ba-dc6b6912c196"
+              },
+              "target": {
+                "id": "9a00fab5-9dc8-4fc4-845f-deea51951684"
+              },
+              "vertices": [
+                {
+                  "x": 958,
+                  "y": 203
+                }
+              ],
+              "id": "a72c7b3c-cf79-4894-9a5f-26f87533cb0f",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Hole Daten für\nBezahlung",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 9,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "464b1ee6-cfda-4ce1-93ba-dc6b6912c196"
+              },
+              "target": {
+                "x": 753,
+                "y": 281
+              },
+              "vertices": [
+                {
+                  "x": 722,
+                  "y": 237
+                }
+              ],
+              "id": "edc78d66-d973-4568-9acf-2d4771615a9d",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Hole Daten für\nBezahlung",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 10,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "4335dfc4-a747-42c9-830e-6ac4b60c723f"
+              },
+              "target": {
+                "id": "464b1ee6-cfda-4ce1-93ba-dc6b6912c196"
+              },
+              "vertices": [],
+              "id": "9cec4057-53da-425f-b86c-0f711d4f8d59",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Bezahl Daten",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 11,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "9a00fab5-9dc8-4fc4-845f-deea51951684"
+              },
+              "target": {
+                "id": "464b1ee6-cfda-4ce1-93ba-dc6b6912c196"
+              },
+              "vertices": [
+                {
+                  "x": 849,
+                  "y": 231
+                }
+              ],
+              "id": "ad3a6a2a-bffc-4a65-8c38-ca26ce847f4b",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Bezahl Daten",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 12,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "464b1ee6-cfda-4ce1-93ba-dc6b6912c196"
+              },
+              "target": {
+                "x": 450,
+                "y": 146
+              },
+              "vertices": [],
+              "id": "32990110-13cb-4488-9819-f79d66e791a3",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Bezahlung",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 13,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "dfe854b4-2450-4508-890e-16c532ecce54"
+              },
+              "target": {
+                "id": "27482b4b-f0d1-49f3-bcd8-eae4cc390424"
+              },
+              "vertices": [],
+              "id": "483cf85c-eebc-4992-885b-0c736c4b0e76",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Erhält Betrag",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 14,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 495,
+                "y": 83
+              },
+              "target": {
+                "x": 524,
+                "y": 200
+              },
+              "vertices": [
+                {
+                  "x": 538,
+                  "y": 129
+                }
+              ],
+              "id": "20e84c16-2272-45da-9ffc-53eb55a6f191",
+              "z": 15,
+              "attrs": {}
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 1016,
+                "y": 226
+              },
+              "target": {
+                "x": 814,
+                "y": 242
+              },
+              "vertices": [],
+              "id": "ce73c718-205a-4adb-be41-efc1d0a1808a",
+              "z": 16,
+              "attrs": {}
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 767,
+                "y": 251
+              },
+              "target": {
+                "x": 602,
+                "y": 263
+              },
+              "vertices": [],
+              "id": "5aba9767-7038-4798-ae02-0c880ec42b68",
+              "z": 17,
+              "attrs": {}
             }
           ]
         },
         "size": {
           "height": 590,
-          "width": 915
+          "width": 1224
         }
       }
     ],
