@@ -1,0 +1,22 @@
+{
+  "summary": {
+    "title": "Uebung1_ThreatModel",
+    "owner": "Sandro",
+    "description": "Threat Model zu folgenden Rahmenbedingungen:\n- Der Kunde bezahlt mobile mit seinem Handy\n- Die Kreditkarte kann in der App hinterlegt werden oder das Konto wird prepay aufgeladen\n- Der Verkäufer besitzt ein Kassensystem, welche das Signal des Handys verarbeitet"
+  },
+  "detail": {
+    "contributors": [
+      {
+        "name": "Contributor"
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "Diagram",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 0
+      }
+    ],
+    "reviewer": "Sandro"
+  }
+}
